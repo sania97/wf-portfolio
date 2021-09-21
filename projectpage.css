@@ -68,111 +68,106 @@ a.headerlink.dark:hover {
   color: #fff
 }
 
-.contactresume {
-  border: 3px solid #fff;
-  cursor: pointer
-}
+/* contact + resume buttons code */
 
+/*contact button*/
+.contactresume {
+  border: .3em solid white;
+  cursor: pointer;
+}
 .contactresume:hover {
   -webkit-animation: border-flicker .5s linear forwards;
-          animation: border-flicker .5s linear forwards
+          animation: border-flicker .5s linear forwards;
 }
-
-.contactresume h4 {
-  color: #fff
+.contactresume h4{
+  color:white;
 }
-
 .contactresume .fa {
-  float: right;
-  color: #fff;
-  font-size: 4em
+  float:right;
+  color:white;
+  font-size: 4em;
 }
-
 .contactresume:hover h4 {
-  text-shadow: 0 0 15px #d05fdd
+    text-shadow: 0 0 15px rgb(208, 95, 221);
 }
-
-.contactresume:hover .fa {
-  color: #d05fdd;
-  -webkit-filter: drop-shadow(0 0 15px -1px rgb(208, 95, 221), 0 0 12px -1px rgb(208, 95, 221) inset);
-          filter: drop-shadow(0 0 15px -1px rgb(208, 95, 221), 0 0 12px -1px rgb(208, 95, 221) inset)
+.contactresume:hover .fa{
+  color: rgb(208, 95, 221);
+  -webkit-filter:drop-shadow(0 0 15px -1px rgb(208, 95, 221), 0 0 12px -1px rgb(208, 95, 221) inset);
+          filter:drop-shadow(0 0 15px -1px rgb(208, 95, 221), 0 0 12px -1px rgb(208, 95, 221) inset);
 }
-
 @-webkit-keyframes border-flicker {
   34% {
-    border: 3px solid #d05fdd;
-    box-shadow: 0 0 15px -1px #d05fdd, 0 0 12px -1px #d05fdd inset
+    border: .3em solid rgb(208, 95, 221);
+    box-shadow: 0 0 15px -1px rgb(208, 95, 221), 
+    0 0 12px -1px rgb(208, 95, 221) inset;
   }
-
   100% {
-    border: 3px solid #d05fdd;
-    box-shadow: 0 0 15px -1px #d05fdd, 0 0 12px -1px #d05fdd inset
+    border: .3em solid rgb(208, 95, 221);
+    box-shadow: 0 0 15px -1px rgb(208, 95, 221), 
+    0 0 12px -1px rgb(208, 95, 221) inset;
   }
 }
-
 @keyframes border-flicker {
   34% {
-    border: 3px solid #d05fdd;
-    box-shadow: 0 0 15px -1px #d05fdd, 0 0 12px -1px #d05fdd inset
+    border: .3em solid rgb(208, 95, 221);
+    box-shadow: 0 0 15px -1px rgb(208, 95, 221), 
+    0 0 12px -1px rgb(208, 95, 221) inset;
   }
-
   100% {
-    border: 3px solid #d05fdd;
-    box-shadow: 0 0 15px -1px #d05fdd, 0 0 12px -1px #d05fdd inset
+    border: .3em solid rgb(208, 95, 221);
+    box-shadow: 0 0 15px -1px rgb(208, 95, 221), 
+    0 0 12px -1px rgb(208, 95, 221) inset;
   }
 }
 
-.contactresume.resume {
-  border: 3px solid #fff;
-  cursor: pointer
-}
 
+/*resume button*/
+.contactresume.resume {
+  border: .3em solid white;
+  cursor: pointer;
+}
 .contactresume.resume:hover {
   -webkit-animation: border-flicker2 .5s linear forwards;
-          animation: border-flicker2 .5s linear forwards
+          animation: border-flicker2 .5s linear forwards;
 }
-
-.contactresume.resume h4 {
-  color: #fff
+.contactresume.resume h4{
+  color:white;
 }
-
 .contactresume.resume .fa {
-  float: right;
-  color: #fff;
-  font-size: 4em
+  float:right;
+  color:white;
+  font-size: 4em;
 }
-
 .contactresume.resume:hover h4 {
-  text-shadow: 0 0 15px #4bc7bf
+    text-shadow: 0 0 15px rgb(75, 199, 191);
 }
-
-.contactresume.resume:hover .fa {
-  color: #4bc7bf;
-  -webkit-filter: drop-shadow(0 0 15px -1px rgb(75, 199, 191), 0 0 12px -1px rgb(75, 199, 191) inset);
-          filter: drop-shadow(0 0 15px -1px rgb(75, 199, 191), 0 0 12px -1px rgb(75, 199, 191) inset)
+.contactresume.resume:hover .fa{
+  color: rgb(75, 199, 191);
+  -webkit-filter:drop-shadow(0 0 15px -1px rgb(75, 199, 191), 0 0 12px -1px rgb(75, 199, 191) inset);
+          filter:drop-shadow(0 0 15px -1px rgb(75, 199, 191), 0 0 12px -1px rgb(75, 199, 191) inset);
 }
-
 @-webkit-keyframes border-flicker2 {
   34% {
-    border: 3px solid #4bc7bf;
-    box-shadow: 0 0 15px -1px #4bc7bf, 0 0 12px -1px #4bc7bf inset
+    border: .3em solid rgb(75, 199, 191);
+    box-shadow: 0 0 15px -1px rgb(75, 199, 191), 
+    0 0 12px -1px rgb(75, 199, 191) inset;
   }
-
   100% {
-    border: 3px solid #4bc7bf;
-    box-shadow: 0 0 15px -1px #4bc7bf, 0 0 12px -1px #4bc7bf inset
+    border: .3em solid rgb(75, 199, 191);
+    box-shadow: 0 0 15px -1px rgb(75, 199, 191), 
+    0 0 12px -1px rgb(75, 199, 191) inset;
   }
 }
-
 @keyframes border-flicker2 {
   34% {
-    border: 3px solid #4bc7bf;
-    box-shadow: 0 0 15px -1px #4bc7bf, 0 0 12px -1px #4bc7bf inset
+    border: .3em solid rgb(75, 199, 191);
+    box-shadow: 0 0 15px -1px rgb(75, 199, 191), 
+    0 0 12px -1px rgb(75, 199, 191) inset;
   }
-
   100% {
-    border: 3px solid #4bc7bf;
-    box-shadow: 0 0 15px -1px #4bc7bf, 0 0 12px -1px #4bc7bf inset
+    border: .3em solid rgb(75, 199, 191);
+    box-shadow: 0 0 15px -1px rgb(75, 199, 191), 
+    0 0 12px -1px rgb(75, 199, 191) inset;
   }
 }
 
