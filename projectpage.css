@@ -298,12 +298,16 @@ a.headerlink.dark:hover {
   border-radius: 20%
 }
 
-.dots-list-container, .dots-container-other, 
+.dots-container, .dots-container-other, 
 .menu-button-2.mobilemenu {
   -webkit-backdrop-filter: saturate(1.8) blur(20px);
   backdrop-filter: saturate(1.8) blur(20px)
 }
-
+.dots-container.fno, .dots-container-other.fno 
+{
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
 .dot-cover.w--current {
   margin-top: .6em;
   margin-bottom: .6em
