@@ -299,7 +299,6 @@ a.headerlink.dark:hover {
 }
 
 .dots-list-container, .dots-container-other, 
-.link-list-container,
 .menu-button-2.mobilemenu {
   -webkit-backdrop-filter: saturate(1.8) blur(20px);
   backdrop-filter: saturate(1.8) blur(20px)
